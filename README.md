@@ -1,4 +1,6 @@
 # GooglePlayAutoMute
+![alt tag](http://icons.iconarchive.com/icons/marcus-roberto/google-play/128/Google-Play-Music-icon.png)
+
 Automatically mute google play when ads are playing.
 
 Note that you should run this script once your music is actually playing. Running beforehand will probably not be successful. 
