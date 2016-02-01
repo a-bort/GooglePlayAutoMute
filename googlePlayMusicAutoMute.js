@@ -5,6 +5,9 @@ window.prevVolume = 0;
 setInterval(function(){
 	var volumeSlider = document.getElementById("material-vslider");
 	var currentTitle = document.getElementById("currently-playing-title");
+
+	if(!volumeSlider || !currentTitle) return;
+	
 	if(currentTitle.textContent == "We'll be right back"){
 		var volume = volumeSlider.getAttribute("value");
 		if(volume != "0"){
